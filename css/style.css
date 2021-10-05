@@ -1,0 +1,66 @@
+body{
+		background-color: lightcyan;
+		background-image: url(../image/rock2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment:fixed;
+		background-attachment:scroll;
+	}
+
+h1{
+	color: green;
+	}
+
+p{
+	font-family:verdana;
+	font-size: 20px;
+	color: blue;
+}
+
+#para1{
+	color: lightcorals;
+	text-align: left;
+}
+
+#padding{
+	padding: 50px;
+}
+
+#uppercase{
+	text-transform: uppercase;
+}
+#lowercase{
+	text-transform: lowercase;
+}
+
+#capitalize{
+	text-transform: capitalize;
+}
+
+.center{
+	color: green;
+	text-align: left;
+}
+
+div {
+  background-color: bisque;
+  margin: 30px;
+  border: 1px solid #4CAF50;
+}
+
+.first {
+  opacity: 0.1;
+  rgba(0,128,0,1);
+  margin: 20px;
+}
+
+.second {
+  opacity: 0.3;
+  margin: 20px;
+ }
+
+.third {
+  opacity: 0.6;
+  margin: 20px;
+
+ 

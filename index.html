@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale= 1.0">
+	<title>Home Page CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<style type="text/css">
+	
+</style>
+
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+
+<h2>CSS Syntax</h2>
+<!-- CSS Syntax
+1.CSS selector: The selector points to the HTML element you want to style.
+
+2.The declaration block:  contains one or more declarations separated by semicolons. Each declaration includes a CSS property name and a value, separated by a colon.Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces i.e { }. -->
+
+<p style="color: red; text-align: left;">Hello World!</p>
+<p>These paragraphs are styled with CSS.</p>
+
+
+<h2>CSS Selectors</h2>
+
+1. The CSS element Selector
+<p>Every paragraph will be affected by the style.</p>
+<p>Me too!</p>
+<p>And me!</p>
+
+
+2. The CSS id Selector
+<p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+3. The CSS class Selector
+<h1 class="center">Red and left-aligned heading</h1>
+<p class="center">Red and left-aligned paragraph.</p> 
+
+<h2>How To Add CSS</h2>
+<p>Three Ways to Insert CSS. There are three ways of inserting a style sheet:</p>
+<ul>
+<li>External CSS</li>
+<li>Internal CSS</li>
+<li>Inline CSS	</li>
+</ul>
+
+
+<h2>CSS Comments</h2>
+<P> CSS comments are not displayed in the browser, but they can help document the source code. It starts with /* and ends with */: </P>
+
+
+<h2>CSS Colors</h2>
+
+1. CSS Color Names
+<h3 style="background-color:Tomato;">Tomato</h3>
+<h3 style="background-color:Orange;">Orange</h3>
+<h3 style="background-color:DodgerBlue;">DodgerBlue</h3>
+<h3 style="background-color:MediumSeaGreen;">MediumSeaGreen</h3>
+
+2. CSS Text Color
+<h3 style="color:Tomato;">Hello World</h3>
+<p style="color:DodgerBlue;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<p style="color:MediumSeaGreen;">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+
+3. CSS Border Color
+<h2 style="border: 2px solid Tomato;">Hello World</h2>
+<h2 style="border: 2px solid DodgerBlue;">Hello World</h2>
+<h2 style="border: 2px solid Violet;">Hello World</h2>
+
+4. CSS Color Values
+<p>In CSS, colors can also be specified using RGB values, HEX values, RGBA values</p>
+<p>Same as color name "Tomato":</p>
+<h2 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h2>
+<h2 style="background-color:#ff6347;">#ff6347 (hexa decimal)</h2>
+<h2 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h2>
+
+<p>Same as color name "Tomato", but 50% transparent:</p>
+<h2 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h2>
+<h2 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h2>
+
+<p>In addition to the predefined color names, colors can be specified using RGB, HEX, HSL, or even transparent colors using RGBA or HSLA color values.</p>
+
+
+<h2>CSS Backgrounds</h2>
+
+1.CSS background-color
+The background color of a page is set like this:
+<h1>Hello World!</h1>
+<p>This page has a lightcyan background color!</p>
+
+2. Opacity / Transparency
+The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:
+
+<h1>Transparent Boxes</h1>
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first">
+  <h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+  <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+  <h1>opacity 0.6</h1>
+</div>
+
+<div>
+  <h1>opacity 1 (default)</h1>
+</div>
+
+
+3.CSS background-image
+
+<h2>CSS Margin</h2>
+
+<div>This element has a margin of 70px.</div>
+
+<h2>Using individual padding properties</h2>
+<div id="padding">This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</div>
+
+
+
+<h1>Using the text-transform property</h1>
+<p id="uppercase">This text is transformed to uppercase.</p>
+<p id="lowercase">This text is transformed to lowercase.</p>
+<p id="capitalize">This text is capitalized.</p>
+
+
+</body>
+</html>
